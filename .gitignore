@@ -2,5 +2,6 @@
 .idea
 .vscode
 build
+server-test
 
 .DS_Store
