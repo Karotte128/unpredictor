@@ -1,0 +1,5 @@
+name: Unpredictor
+version: '1.0-SNAPSHOT'
+main: de.karotte128.unpredictor.Unpredictor
+api-version: '1.21'
+load: STARTUP
