@@ -15,7 +15,7 @@ public class UnpredictorCommand implements CommandExecutor, TabExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
         commandSender.sendMessage(strings);
-        return false;
+        return true;
     }
 
     @Override
