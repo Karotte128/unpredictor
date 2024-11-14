@@ -6,7 +6,7 @@ public final class Unpredictor extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getCommand("unpredictor").setExecutor(new UnpredictorCommand());
 
     }
 

@@ -3,3 +3,10 @@ version: '1.0-SNAPSHOT'
 main: de.karotte128.unpredictor.Unpredictor
 api-version: '1.21'
 load: STARTUP
+commands:
+  unpredictor:
+    description: "Change Unpredictor Attributes"
+    usage: "/unpredictor"
+    aliases: [ unp ]
+    permission: unpredictor.command.main
+    permission-message: "You do not have permission to use this command"
